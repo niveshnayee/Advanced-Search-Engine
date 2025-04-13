@@ -1,0 +1,10 @@
+__pycache__/
+.env
+lawyer_embeddings.json
+lawyers.csv
+name_embeddings_dict.json
+scrape_test.json
+scraped_data_2.json
+scraped_data.json
+test.csv
+test2.csv
