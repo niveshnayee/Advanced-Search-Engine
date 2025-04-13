@@ -1,9 +1,13 @@
 import time
 import requests
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def llm(model="gpt2", system_prompt=None, user_prompt=None, assistant_prompt=None, params=None):
     headers = {
-        "Authorization": f"Bearer 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"
+        "Authorization": os.getenv('Authorization'),
     }
 
     # Combine prompts into a single string
